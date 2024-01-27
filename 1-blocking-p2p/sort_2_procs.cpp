@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>
 #include <mpi.h>
+#include <cstdlib>
 #include<algorithm>
 
 using namespace std;
@@ -52,7 +53,7 @@ int main()
     int first_half = NUM_ELEMENTS / 2;
     int second_half = NUM_ELEMENTS - first_half;
 
-    srand(0);
+    srand(time(nullptr));
 
     if (rank == 0)
     {
