@@ -6,18 +6,11 @@
 *.out
 *.app
 
-# 忽略没有扩展名的可执行文件
-bin/*
-build/*
-lib/*
-temp/*
-*/matrix_multiplication
-*/other_executable
-./*
-0-overview/*
-1-blocking-p2p/*
-2-sharemem/*
-3-nonblocking-p2p/*
+
+# 忽略所有不含后缀的文件
+* 
+!*/ 
+!*.*
 
 # 忽略编译生成的文件
 *.a
@@ -54,4 +47,4 @@ Testing/
 # 忽略其他不需要的文件和目录
 .DS_Store
 Thumbs.db
-CmakeLists.txt
+CMakeLists.txt
