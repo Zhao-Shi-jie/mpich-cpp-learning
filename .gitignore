@@ -1,0 +1,56 @@
+# 忽略所有对象文件
+*.o
+
+# 忽略所有可执行文件
+*.exe
+*.out
+*.app
+
+# 忽略没有扩展名的可执行文件
+bin/*
+build/*
+lib/*
+temp/*
+*/matrix_multiplication
+*/other_executable
+./*
+0-overview/*
+1-blocking-p2p/*
+2-sharemem/*
+3-nonblocking-p2p/*
+
+# 忽略编译生成的文件
+*.a
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.lib
+
+# 忽略临时文件
+*~
+*.swp
+*.bak
+*.tmp
+
+# 忽略日志文件
+*.log
+
+# 忽略CMake生成的文件和目录
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+install_manifest.txt
+Testing/
+
+# 忽略IDE和编辑器生成的文件
+.idea/
+.vscode/
+*.iws
+
+# 忽略其他不需要的文件和目录
+.DS_Store
+Thumbs.db
