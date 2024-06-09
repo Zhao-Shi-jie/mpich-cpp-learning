@@ -54,3 +54,4 @@ Testing/
 # 忽略其他不需要的文件和目录
 .DS_Store
 Thumbs.db
+CmakeLists.txt
